@@ -1,0 +1,10 @@
+---
+systems:
+  bookworm: &bookworm
+    name: debian
+    version: 12
+  noble: &noble
+    name: ubuntu
+    version: 24.04
+  debian: *bookworm
+  ubuntu: *noble

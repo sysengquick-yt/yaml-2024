@@ -1,0 +1,16 @@
+---
+- This is a string value without quotes
+- "This is a string value with quotes"
+- This string spans multiple lines.
+  A single line break is the same as a space.
+  Handy for breaking up long strings.
+- This is the first line in my string.
+
+  This is the second line.
+  This is part of the second line still.
+
+  This is the third line.
+  Don't use this style.
+  It will just confuse people.
+- "If you want to break up a line, but don't want the spa\
+  ce, use quotes and add a backslash at the end of the line."

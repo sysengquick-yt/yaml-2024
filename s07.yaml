@@ -1,0 +1,24 @@
+---
+- >+
+  The keep chomp operator keeps multiple lines at the end of our strings.
+  This string will have three newlines at the end.
+  One for the block, and those two blank lines.
+
+
+- |2-
+    First line is indented here.
+  This line is not.
+    This third line is again.
+- "\
+  Double quoted strings are the most versatile.\n\
+  The first \\ was to remove the spaces.
+  The \\n added a newline.
+
+  The second \\ removed the space after the newline before staring line '14'.
+
+  \  If you want to indent a line, put a backslash first.
+
+  The blank lines will give us a line break, too.
+  I know I told you to avoid that, but...well,
+  if you want maximum flexibility, this is the way.\
+  "

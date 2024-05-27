@@ -1,0 +1,13 @@
+%YAML 1.1
+---
+# this is a comment
+str: "# without quotes, this would be a comment"
+
+# this might be a sequence of booleans
+seq:
+  - true
+  - !!str false
+  - On
+  - Off
+  - YES
+  - !!bool NO

@@ -1,0 +1,26 @@
+---
+{
+  "str": "YAML is a JSON superset",
+  "fp1": 3.14159,
+  "null": null,
+}
+---
+[
+  "alpha", "beta"
+]
+---
+yaml_implicit_null:
+yaml_explicit_null: ~
+yaml_empty_string: ""
+yaml_empty_map: {}
+yaml_empty_sequence: []
+yaml_flow_map: { key: value, key2: value2 }
+yaml_flow_sequence: [one, two]
+--- !!str |+
+  This is my string.
+  It has many lines.
+  Some of them are new.
+  The end of document marker preserves them.
+
+
+...

@@ -1,0 +1,26 @@
+---
+- funny numbers are STILL funny
+- 42
+- 420
+- 69
+- 3.14159
+- 2.71828
+- true
+- false
+---
+- fruit: Apple
+  color: red
+- fruit: Banana
+  color: yellow
+- fruit: Orange
+  color: orange
+---
+- - alpha
+  - beta
+  - gamma
+  - delta
+-
+  - one
+  - two
+  - three
+  - four

@@ -1,0 +1,19 @@
+---
+- "'strings' starting with a quote character must be quoted"
+- I'd have needed quotes if that apostrophe was the first character.
+- "I've added \"double quotes\" in this double quoted string by escaping them"
+- Not "double quoting" the string might have been easier.
+- 'I''ve added a single quote in this single quoted string by doubling it'
+- >
+  Greater than is used to create a folded string.
+  Folded strings treat line breaks as spaces.
+  They keep the last line break.
+- >-
+  Add the strip chomp operator to remove the last line break.
+- |
+  The pipe is for literal string blocks.
+  Literal string blocks treat line breaks as line breaks.
+  This is a three line string in three lines with a newline at the end.
+- |-
+  The chomp operator works here to remove the final line break.
+  But the other line breaks remain.

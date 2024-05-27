@@ -1,0 +1,19 @@
+---
+_anchors:
+  - &api_creds
+    token: Don't_Put_Passw0rd$_=>_G!t...?
+    url: http://api.example.com:8192
+
+api_endpoints:
+  zone01:
+    <<: *api_creds
+    name: St. Louis
+    url: https://api.zone01.example.com:8192
+  zone02:
+    <<: *api_creds
+    name: Philadelphia
+    url: https://api.zone02.example.com:8192
+  zone03:
+    name: Atlanta
+    url: https://api.zone03.example.com:8192
+    <<: *api_creds

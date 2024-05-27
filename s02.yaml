@@ -1,0 +1,17 @@
+---
+key: value
+str: string value
+num: 42
+bool: true
+bool_str: "true"
+map:
+  str: funny numbers are funny
+  num: 420
+  num2: 69
+seq:
+  - true
+  - false
+  - On
+  - Off
+  - YES
+  - NO
